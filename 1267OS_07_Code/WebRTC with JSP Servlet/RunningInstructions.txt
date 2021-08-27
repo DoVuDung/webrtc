@@ -1,0 +1,22 @@
+This Project is meant for "WEBRTC INETEGRATORS GUIDE" Book 
+chapter 7 "WebRTC with Industry Standard Frameworks " 
+authored by Altanai Bisht .
+
+........................................
+
+To run this web project 
+
+1. Open Eclipse with JavaEE
+
+2. Import the project WebCommunicatorv1 in workspace
+
+3. On the project Explorer window , right click and goto " properties " fromthe drop down menu .
+	Check for any errors in JAVA built path . Reconfigure the path if any libarry is not found.
+
+4. Open MySQL from Workbench , crete scheme named "webrtccommunicatorv1db". Apply the changes . 
+
+5. Follow the sal files in folder 'sql scripts for WebRTC jsp servlet db ' to create tables and triggers .
+
+6. Add a server. Preferably Tomcat v7 . 
+
+7. Run the project .

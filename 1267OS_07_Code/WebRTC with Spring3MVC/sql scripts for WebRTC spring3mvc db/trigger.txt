@@ -1,0 +1,46 @@
+
+DELIMITER $$
+CREATE TRIGGER afterregister
+AFTER INSERT ON `WEBRTCDB`.`Userdetail`
+FOR EACH ROW
+BEGIN
+ 
+    INSERT INTO `WEBRTCDB`.`Users`  
+       set  username = NEW.userdetailprivateIdentity,
+        password = NEW.userdetailpassword,
+        active = 1; 
+        
+END $$
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE TRIGGER afterupdate
+AFTER UPDATE ON `WEBRTCDB`.`Userdetail`
+FOR EACH ROW
+BEGIN
+ 
+    INSERT INTO `WEBRTCDB`.`Users`  
+       set  username = NEW.userdetailprivateIdentity,
+        password = NEW.userdetailpassword,
+        active = 1; 
+        
+END $$
+DELIMITER ;
+
+
+DELIMITER $$
+CREATE TRIGGER afterusers
+    AFTER INSERT ON `WEBRTCDB`.`Users`
+    FOR EACH ROW
+
+ BEGIN
+ 
+    INSERT INTO `WEBRTCDB`.`User_roles` 
+       set  user_id= NEW.user_id,
+        authority = 'ROLE_USER'; 
+        
+END $$
+DELIMITER ;
+
+

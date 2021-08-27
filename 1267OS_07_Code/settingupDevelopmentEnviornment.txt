@@ -1,0 +1,26 @@
+This Project is meant for "WEBRTC INETEGRATORS GUIDE" Book 
+chapter 7 "WebRTC with Industry Standard Frameworks " 
+authored by Altanai Bisht .
+
+........................................
+
+Setting Up Development Enviornment
+------------------------------------------------
+
+1. Eclipse IDE
+
+I Used Eclipse IDE in this project with WTP tools 
+Eclipse can be downloaded from here 
+https://www.eclipse.org/downloads/
+
+
+2. Web Tool for Eclipse
+
+Building Eclipse IDE for web applications can be found here  
+https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F
+
+
+3.Web Server
+
+Though one can use any Web Server for the purpose of deploying the web applications , I use Apache tomcat 7 . It can downloaded from 
+http://tomcat.apache.org/

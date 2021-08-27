@@ -1,0 +1,38 @@
+INSERT INTO `DAVDB`.`users`
+(
+`USERNAME`,
+`PASSWORD`,
+`ACTIVE`)
+VALUES
+(
+'sip:bob@tcs.com',
+'bob',
+1
+);
+
+INSERT INTO `DAVDB`.`users`
+(
+`USERNAME`,
+`PASSWORD`,
+`ACTIVE`)
+VALUES
+(
+'sip:alice@tcs.com',
+'alice',
+1
+);
+
+Insertinga dmin tcs account 
+
+INSERT INTO `WEBRTCDB`.`Users`
+(
+`USERNAME`,
+`PASSWORD`,
+`ACTIVE`)
+VALUES
+(
+'sip:admintcs@tcs.com',
+'tcs@1234',
+1
+);
+Update WEBRTCDB.User_roles set Authority ='ROLE_ADMIN' where user_role_id=3 ;

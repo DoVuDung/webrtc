@@ -1,0 +1,24 @@
+This Project is meant for "WEBRTC INETEGRATORS GUIDE" Book 
+chapter 7 "WebRTC with Industry Standard Frameworks " 
+authored by Altanai Bisht .
+
+........................................
+
+To run this web project 
+
+1. Open Eclipse with JavaEE
+
+2. Import the project Webrtcramework in workspace
+
+3. On the project Explorer window , right click and goto " properties " fromthe drop down menu .
+	Check for any errors in JAVA built path . Reconfigure the path if any libarry is not found.
+
+4. Open MySQL from Workbench , crete scheme named "webrtcframeworkdb". Apply the changes . Alsoedit the hibernate.config file with databse cdredentails .
+
+5. Again in the Eclipse Project window , goto "log4j.xml" file and edit the location for log files generation  as desired .  
+
+6. Add a server. Preferably Tomcat v7 . 
+
+7. Run the project .
+
+8. The tables are automatcallly created by hibernate functionality . Register new user and login with it . 

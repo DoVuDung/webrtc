@@ -1,0 +1,92 @@
+fieldset
+{
+border: 1px solid lightgray;
+width:90%;
+background-color: white;
+}
+
+#selectFriends{
+	width: 30%;
+	height:200px;
+	float: right;
+	margin-right:10%;
+}
+
+.options{
+	width: 150px;
+}
+
+@media all and (max-width:1026px) and (min-width:800px){
+fieldset
+{
+width:90%;
+background-color: white;
+}
+#fieldset1Container{
+	width: 462px;
+}
+#selectFriends{
+	width:25%;
+	margin-right: 5%;
+}
+ .options{
+	width: 115px;
+	padding: none;
+} 
+#discardAudio{
+	width: 115px;
+}
+#saveAudio{
+	width: 100px;
+}
+#play{
+	width: 100px;
+}
+}
+
+#videoRecording
+{
+	/* margin-left: 200px; */
+	margin-top:25px;
+	text-align: center;
+	
+}
+
+}
+fieldset legend{
+	font-size: 18px;
+	font-family: sans-serif;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+#videoRecording
+{
+	
+	margin-top: 40px;
+	text-align: center;
+	
+}
+.text-field {
+height: 37px;
+margin: 0;
+padding: 5px;
+border: 1px solid #dcdcdc;
+font-family: "Source Sans Pro",Arial,sans-serif;
+font-size: 16px;
+font-weight: 500;
+box-sizing: border-box;
+outline-color: highlight;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden;height: 25px }
+.autocomplete-selected { background:#1787F7;}
+.autocomplete-suggestions strong { font-weight: bold; color: #fdb813; }
+
+@media all and (max-width:1280px) and (min-width:1152px){
+
+#videoRecording
+{
+	margin-top: 75px;
+}
+}

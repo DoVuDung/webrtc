@@ -1,0 +1,56 @@
+.progressbar{
+display:none;
+width:300px;
+margin:5px;
+padding:2px;
+background-color:white;
+border:1px solid black;
+text-align:center
+}
+
+.startConferenceDiv{
+float: right;
+width:290px;
+height:40px;
+margin-right: 60px;
+}
+
+.setup{
+border-bottom-left-radius: 2;
+border-top-left-radius: 2;                
+position: absolute;
+margin-top:10px;
+height:30px;
+margin-left:50px;
+}
+
+.outerFrndDiv{
+float: right;
+width:290px;
+}
+
+.innerFrndDiv{
+float: right;
+width:290px;
+max-height:160px; 
+overflow: auto;
+}
+
+.conferenceRoom{
+height:45px;
+text-align:center;
+margin-left:15px;
+margin-right:15px;
+margin-down:47px;
+}
+
+select{
+border: 1px solid #d9d9d9;
+border-radius: 1px;
+height: 50px;
+margin-left: 1em;
+margin-right: -12px;
+padding: 1.1em;
+padding-top:0em;
+vertical-align: 6px;                
+}
